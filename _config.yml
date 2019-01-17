@@ -58,7 +58,7 @@ footer-link-col: "#404040"
 
 navbar-img: "/img/dream.jpg"
 #footer-img: "/img/italy.jpg"
-page-img: "/img/saber7.png"
+page-img: "/img/saber7.PNG"
 
 # --- Footer options --- #
 
@@ -254,4 +254,4 @@ plugins:
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+  # 2fc73a3a967e97599c9763d05e564189lsla
