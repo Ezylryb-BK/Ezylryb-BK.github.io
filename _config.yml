@@ -46,9 +46,9 @@ avatar: "/img/spirit.jpg"
 # navbar-col: "#F5F5F5"
 # navbar-text-col: "#404040"
 # navbar-children-col: "#F5F5F5"
-page-col: "#3F3FBF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
+# page-col: "#3F3FBF"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
 # footer-col: "#F5F5F5"
 # footer-text-col: "#777777"
 # footer-link-col: "#404040"
@@ -58,7 +58,7 @@ hover-col: "#0085A1"
 
  navbar-img: "/img/fall.jpg"
  footer-img: "/img/italy.jpg"
-# page-img: "/img/bgimage.png"
+ page-img: "/img/comlex.jpg"
 
 # --- Footer options --- #
 
