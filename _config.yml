@@ -43,22 +43,22 @@ avatar: "/img/spirit.jpg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-# navbar-col: "#F5F5F5"
-# navbar-text-col: "#404040"
-# navbar-children-col: "#F5F5F5"
-page-col: "#3F3FBF"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+#page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-#footer-col: "#F5F5F5"
-#footer-text-col: "#777777"
-#footer-link-col: "#404040"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/fall.jpg"
-footer-img: "/img/italy.jpg"
-# page-img: "/img/comlex.jpg"
+#navbar-img: "/img/fall.jpg"
+#footer-img: "/img/italy.jpg"
+page-img: "/img/comlex.jpg"
 
 # --- Footer options --- #
 
@@ -136,7 +136,7 @@ staticman:
   branch     : master # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL)
+    # reCapt##cha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
     siteKey  : # Use your own site key, you need to apply for one on Google
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
