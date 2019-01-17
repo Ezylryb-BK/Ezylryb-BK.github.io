@@ -43,10 +43,10 @@ avatar: "/img/spirit.jpg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
- navbar-col: "#F5F905"
+ navbar-col: "#F5F5F5"
  navbar-text-col: "#404040"
  navbar-children-col: "#F5F5F5"
- page-col: "#3F3FBF"
+ page-col: "#7F3FBF"
  link-col: "#008AFF"
  hover-col: "#0085A1"
  footer-col: "#F5F5F5"
@@ -65,7 +65,7 @@ avatar: "/img/spirit.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Ezylryb
+  name: Ezylryb-BK
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
