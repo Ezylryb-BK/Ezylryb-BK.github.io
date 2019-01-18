@@ -23,10 +23,16 @@ description: Welcome here!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resume: "resume"
+  About Me: 
+    -Resume: "resume"
+    -Organization: "https://nju-itxia.github.io/techblog/"
+    -More: "aboutme"
   Github: "https://github.com/Ezylryb-BK/"
-  Organization: "https://nju-itxia.github.io/techblog/"
+  Catalogue:
+    -tags: "tags"
+    -journal: "journal"
+    -Academics: "Academics"
+    -Archive: "Archive"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -45,7 +51,7 @@ avatar: "/img/qu.jpg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#FFFFB9"
+navbar-col: "#E6CAFF"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
