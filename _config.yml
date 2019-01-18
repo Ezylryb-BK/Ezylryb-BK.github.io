@@ -24,6 +24,7 @@ description: Welcome here!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Resume: "resume"
   Github: "https://github.com/Ezylryb-BK/"
   Organization: "https://nju-itxia.github.io/techblog/"
 #  Resources:
@@ -34,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/saber0.jpg"
+avatar: "/img/qu.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -47,7 +48,7 @@ avatar: "/img/saber0.jpg"
 navbar-col: "#FFFFB9"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
-page-col: "#F1E1FF"
+page-col: "#FFFFFF"
 link-col: "#8080C0"
 hover-col: "#FFFF37"
 footer-col: "#CECEFF"
@@ -59,7 +60,7 @@ footer-link-col: "#404040"
 
 #navbar-img: "/img/dream.jpg"
 #footer-img: "/img/italy.jpg"
-page-img: "/img/qu.jpg"
+#page-img: "/img/qu.jpg"
 
 # --- Footer options --- #
 
