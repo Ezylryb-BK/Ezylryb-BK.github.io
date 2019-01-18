@@ -18,6 +18,9 @@ table:
 |A|01|03|
 |B|02|03|
 
+picture:
+![saber](../img/saber.comlex.jpg)
+
 code chunk:
 
 ~~~
