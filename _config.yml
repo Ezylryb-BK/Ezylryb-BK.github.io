@@ -24,15 +24,15 @@ description: Welcome here!
 # List of links in the navigation bar
 navbar-links:
   About Me: 
-    -Resume: "resume"
-    -Organization: "https://nju-itxia.github.io/techblog/"
-    -More: "aboutme"
+    - Resume: "resume"
+    - Organization: "https://nju-itxia.github.io/techblog/"
+    - More: "aboutme"
   Github: "https://github.com/Ezylryb-BK/"
   Catalogue:
-    -tags: "tags"
-    -journal: "journal"
-    -Academics: "Academics"
-    -Archive: "Archive"
+    - tags: "tags"
+    - journal: "journal"
+    - Academics: "Academics"
+    - Archive: "Archive"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
