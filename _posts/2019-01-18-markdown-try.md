@@ -5,7 +5,6 @@ subtitle: A test on the syntax here
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star,folk,follow]
 tags: [test,try]
-googlefonts: ["courgette"]
 comments: true
 ---
 
