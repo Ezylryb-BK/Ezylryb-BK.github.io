@@ -10,16 +10,19 @@ comments: true
 
 # heading
 
+## This passage is aimed at testing.
+
 **bold text**
 
 table:
+
 |name|id|class|
 |:---|:---|:---|
 |A|01|03|
 |B|02|03|
 
 picture:
-![saber](../img/saber.comlex.jpg)
+![saber](/img/comlex.jpg)
 
 code chunk:
 
@@ -45,16 +48,11 @@ name[1]=Saber;
 
 ## boxes
 
-### notification
-
-{: notification .box-note}
-
-### warning
+{: .box-note}
+note
 
 {: warning .box-warning}
-
-### error
+warning
 
 {: error .box-error}
-
-***
+error
