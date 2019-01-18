@@ -6,7 +6,6 @@ gh-repo: daattali/beautiful-jekyll
 gh-bade: [star,folk,follow]
 tags: [test]
 comments: true
-googlefonts: ["courgette"]
 ---
 
 # heading
@@ -47,14 +46,14 @@ name[1]=Saber;
 
 ### notification
 
-{: notification.box-note}
+{: notification .box-note}
 
 ### warning
 
-{: warning.box-warning}
+{: warning .box-warning}
 
 ### error
 
-{: error.box-error}
+{: error. box-error}
 
 ***
