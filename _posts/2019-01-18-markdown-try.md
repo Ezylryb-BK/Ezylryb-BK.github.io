@@ -17,8 +17,6 @@ table:
 |:---|:---|:---|
 |A|01|03|
 |B|02|03|
-picture:
-![saber](../img/comlex.jpg)
 
 code chunk:
 
@@ -40,9 +38,9 @@ code with line numbers
 {% highlight javascript linenos %}
 var name=Array();
 name[1]=Saber;
-{% end highlight %}
+{% endhighlight %}
 
-## boxes:
+## boxes
 
 ### notification
 
@@ -54,6 +52,6 @@ name[1]=Saber;
 
 ### error
 
-{: error. box-error}
+{: error .box-error}
 
 ***
