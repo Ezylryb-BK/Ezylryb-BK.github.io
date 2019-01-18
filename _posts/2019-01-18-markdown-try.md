@@ -2,7 +2,7 @@
 layout: post
 title: Try Markdown
 subtitle: A test on the syntax here
-gh-repo: daattali/beautiful-jekyll
+gh-repo: Ezylryb-NK/Ezylryb-BK.github.io
 gh-badge: [star,folk,follow]
 tags: [test,try]
 comments: true
