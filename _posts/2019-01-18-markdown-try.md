@@ -2,15 +2,13 @@
 layout: post
 title: Try Markdown
 subtitle: A test on the syntax here
-gh-repo: Ezylryb-NK/Ezylryb-BK.github.io
+gh-repo: Ezylryb-BK/Ezylryb-BK.github.io
 gh-badge: [star,folk,follow]
-tags: [test,try]
+tags: [test]
 comments: true
 ---
 
-# heading
-
-## This passage is aimed at testing.
+# This passage is aimed at testing.
 
 **bold text**
 
