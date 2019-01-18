@@ -1,0 +1,60 @@
+---
+layout: post
+title: Try Markdown
+subtile: A test on the syntax here
+gh-repo: daattali/beautiful-jekyll
+gh-bade: [star,folk,follow]
+tags: [test,try]
+comments: true
+googlefonts: ["courgette"]
+---
+
+# heading
+
+**bold text**
+
+table:
+|name|id|class|
+|:---|:---|:---|
+|A|01|03|
+|B|02|03|
+picture:
+![saber](../img/comlex.jpg)
+
+code chunk:
+
+~~~
+    #include<bits/stdc++.h>
+    int main(){
+        return 0;
+    }
+~~~
+
+another code chunk:
+
+```javascript
+var name=Array();
+name[0]=Ezylryb;
+```
+
+code with line numbers
+{% highlight javascript linenos %}
+var name=Array();
+name[1]=Saber;
+{% end highlight %}
+
+## boxes:
+
+### notification
+
+{: notification.box-note}
+
+### warning
+
+{: warning.box-warning}
+
+### error
+
+{: error.box-error}
+
+***
