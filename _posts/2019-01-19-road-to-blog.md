@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 博客折腾之路[0]
+title: '博客折腾之路[0]'
 subtitle: 概述这个博客是怎么整出来的
 gh-repo: Ezylryb-BK/Ezylryb-BK.github.io
 gh-badge:
@@ -18,21 +18,17 @@ image: /img/qu.jpg
 ## 语言基础
 
 ### **Markdown**
-
 markdown是一门轻量级的标记语言，是写博客的不错选择。我目前接触的两种静态框架`hexo`和`jekyll`都是支持markdown的，所以用起来很不错。除了写博客，利用vscode上的插件(比如我用的是Markdown Preview Enhanced)可以很方便地把md格式转换成html和pdf格式等，这样的话就可以用markdown写出漂亮的论文而不需要花过多精力排版，也可以画流程图，数学公式等而不需要再额外安装Latex。
 
 ### **HTML**
-
 HTML (Hypertext Markup Language, 超文本标记语言) 是一种用来结构化 Web 网页及其内容的标记语言。HTML 并不是编程语言，它是一种用于定义内容结构的标记语言。HTML 由一系列的元素（elements）所组成，这些元素可以用来封装不同部分的内容，使其以某种方式呈现或者工作。
 了解一些主要的html的语法对搭建博客是大有益处的。
 
 ### **CSS**
-
 CSS (cascating style sheet, 层叠样式表) 也不是真正的编程语言。它也不是标记语言——是样式表语言。也就是说，它允许你有选择性地为 HTML 文档的元素添加样式。
 利用CSS就可以为自己的博客设计漂亮的样式了。
 
 ### **Javascript**
-
 JavaScript 是一门为你的网站添加交互功能的编程语言。JS 是一门成熟的动态编程语言。当应用于 HTML 文档时，它可以在网站上提供动态交互性。
 使用JS可以为网站添加一些小小的乐趣，比如跳出一些有趣的弹窗，制作一些动画效果等，目前我也只会写弹窗了，有待学习。
 
@@ -45,8 +41,8 @@ JavaScript 是一门为你的网站添加交互功能的编程语言。JS 是一
 首先是动态和静态框架的选择。动态框架的主要优势在于它有原生的评论区，而静态框架的评论功能需要依赖于第三方，目前比较流行的第三方是`多说`。由于新手折腾动态比较麻烦，所以我选择的是静态框架。市面上比较受欢迎的两种静态框架是`hexo`和`jekyll`。相较于`jekyll`, `hexo`更方便安装，速度也更快。不过`jekyll`是github page直接支持的，所以为了偷懒我就使用了`jekyll`来搭建。(后来事实证明`jekyll`是非常麻烦的，我们将在后面谈及)
 
 ## **域名**
-
 搭建网站是要买域名的！！！如果你像我一样不想花钱买域名可以考虑利用github page来做一个个人博客，对一个初级选手来说300MB的大小是绰绰有余的，详细教程可以到github上看。如果购买域名的话万网应该是比较靠谱的。
+
 
 ## **jekyll的本地环境搭建**
 
@@ -72,7 +68,7 @@ $ bundle install
 ```
 ...could not find bundler...
 ```
-探究了一番`bundle install`的原理之后，我意识到问题出在我的repository里还有一个Gerfile.lock文件，它导致了版本不相符的问题，于是我就把它删除了，重新执行bundle install，这条命令会生成新的Gerfile.lock文件。（没错，它install了很久很久...大概，10分钟？）
+探究了一番`bundle install`的原理之后，我意识到问题出在我的repository里还有一个Gemfile.lock文件，它导致了版本不相符的问题，于是我就把它删除了，重新执行bundle install，这条命令会生成新的Gemfile.lock文件。（没错，它install了很久很久...大概，10分钟？）
 
 现在我们把新生成的Gerfile.lock文件push到我们的远程仓库里去，然后再运行
 ```
@@ -120,6 +116,7 @@ Configuration file: D:/Blog/Ezylryb-BK.github.io/_config.yml
   Server running... press ctrl-c to stop.
 ```
 Wow!恭喜你从坑里爬出来了，现在本地环境就已经搭建好了呢，可以打开这玩意`http://127.0.0.1:4000/`本地预览你的网站了呢。
+这里安利一波[prose](https://prose.io), 匹配地用来写markdown还不错。
 
 {: .box-error}
-**警告：**更改Gerfile.lock貌似会导致本地的文章预览与实际不同，大概在md-to-html这一环节出了什么问题，将对此问题持续追踪...
+**警告：**更改Gemfile.lock貌似会导致本地的文章预览与实际不同，大概在md-to-html这一环节出了什么问题，将对此问题持续追踪...
