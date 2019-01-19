@@ -4,13 +4,13 @@ title: About me
 subtitle: Yeah, a single dog forever...
 ---
 
-My name is Ezylryb. I'd like to:
+My name is Ezylryb.And I'd like to:
 
 - Share my technical exprience with you.
 - Share my new ideas with you.
 
-What else do you need?
+### my belief
 
-### my belief :smile:
+Stay hungry; stay foolish. :smile:
 
-Stay hungry; stay foolish. And...Love Saber.
+what else do you need?
