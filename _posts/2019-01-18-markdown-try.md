@@ -3,9 +3,15 @@ layout: post
 title: Try Markdown
 subtitle: A test on the syntax here
 gh-repo: Ezylryb-BK/Ezylryb-BK.github.io
-gh-badge: [star,folk,follow]
-tags: [test]
+gh-badge:
+  - star
+  - folk
+  - follow
+tags:
+  - test
 comments: true
+published: true
+image: comlex
 ---
 
 # This passage is aimed at testing.
