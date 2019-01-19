@@ -11,7 +11,7 @@ tags:
   - test
 comments: true
 published: true
-image: /img/qu.jpg
+image: /img/md.jpg
 ---
 
 # This passage is aimed at testing.
