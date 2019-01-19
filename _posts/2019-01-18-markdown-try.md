@@ -11,7 +11,7 @@ tags:
   - test
 comments: true
 published: true
-image: comlex
+image: /img/qu.jpg
 ---
 
 # This passage is aimed at testing.
