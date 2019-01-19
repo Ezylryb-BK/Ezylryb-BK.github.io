@@ -115,5 +115,4 @@ Configuration file: D:/Blog/Ezylryb-BK.github.io/_config.yml
 ```
 Wow!恭喜你从坑里爬出来了，现在本地环境就已经搭建好了呢，可以打开这玩意`http://127.0.0.1:4000/`本地预览你的网站了呢。
 
-***
 持续更新
