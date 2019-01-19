@@ -1,3 +1,5 @@
-## At this time, nothing there...
-
-*[把鼠标移到此处]：Ahha, hello world！
+---
+layout: page
+title: Ezylryb's resume
+subtitle: At this time, nothing there...
+---
