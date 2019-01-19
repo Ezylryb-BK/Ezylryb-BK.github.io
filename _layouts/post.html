@@ -17,13 +17,13 @@ layout: base
           {% if page.gh-badge.size > 0 %}
             {% for badge in page.gh-badge %}
               {% case badge %}
-                {% when 'star'%}
+                {% when 'star' %}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'watch'%}
+                {% when 'watch' %}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'fork'%}
+                {% when 'fork' %}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'follow'%}
+                {% when 'follow' %}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
               {% endcase %}
             {% endfor %}
@@ -40,7 +40,7 @@ layout: base
           Tags:
           {% if site.link-tags %}
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
           {% endfor %}
           {% else %}
             {{ page.tags | join: ", " }}
