@@ -90,7 +90,7 @@ repository: Yourname/Yourname.github.io
 ```
 按理说现在应该搞定了的，可是为什么又冒出来了这个：
 ```
-Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%}/
+    Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%}/
 ```
 经过一番捣鼓，我发现有一些html文件里用的是`{%-  -%} `, 这种写法在commit时是不会报错的，但事实上正规的写法也许是`{%  %}`，经过测试，它们的功能应该是一样的，所以把它们一个一个揪出来改正就好啦！
 
