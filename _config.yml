@@ -257,7 +257,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
 
