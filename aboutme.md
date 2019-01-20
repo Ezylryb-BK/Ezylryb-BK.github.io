@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Yeah, a single dog forever...
+subtitle: I love new ideas...
 ---
 
 My name is Ezylryb.And I'd like to:
@@ -11,6 +11,6 @@ My name is Ezylryb.And I'd like to:
 
 ### my belief
 
-Stay hungry; stay foolish. :smile:
+Stay hungry; stay foolish.
 
 what else do you need?

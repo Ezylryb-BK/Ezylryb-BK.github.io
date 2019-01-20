@@ -17,7 +17,7 @@ baseurl: ""
 title: Home by Ezylryb
 
 # Short description of your site
-description: Welcome here!
+description: We need new ideas!
 
 # --- Navigation bar options --- #
 
@@ -28,8 +28,7 @@ navbar-links:
     - Organization: "https://nju-itxia.github.io/techblog/"
     - More: "aboutme"
   Github: "https://github.com/Ezylryb-BK/"
-  Catalogue:
-    - tags: "tags"
+  tags: "tags"
   #  - journal: "journal"
   #  - Academics: "Academics"
   #  - Archive: "Archive"
@@ -52,7 +51,7 @@ avatar: "/img/qu.jpg"
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#B9D8F2"
-navbar-text-col: "#D7C197"
+navbar-text-col: "#777777"
 navbar-children-col: "#D5DAD9"
 page-col: "#F5DEB3"
 link-col: "#8080C0"
