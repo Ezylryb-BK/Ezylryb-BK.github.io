@@ -25,7 +25,7 @@ description: We need new ideas!
 navbar-links:
   About Me: 
     - Resume: "resume"
-    - Organization: "https://nju-itxia.github.io/techblog/"
+    - Organization: "https://github.com/NJU-itxia/"
     - More: "aboutme"
   Github: "https://github.com/Ezylryb-BK/"
   tags: "tags"
