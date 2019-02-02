@@ -55,8 +55,8 @@ name[1]=Saber;
 {: .box-note}
 note
 
-{: warning .box-warning}
+{: .box-warning}
 warning
 
-{: error .box-error}
+{: .box-error}
 error
