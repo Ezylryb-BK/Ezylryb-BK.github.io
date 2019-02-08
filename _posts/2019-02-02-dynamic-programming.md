@@ -286,7 +286,7 @@ understand the problem: 最优完全括号化方案其实就是最优计算顺�
 
 ### 0-1背包问题的一个栗子
 
-这是LC上的一道中档题, [Ones an Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+这是LC上的一道中档题, [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 
 {: .box-note}
 **问题描述：**<br>
