@@ -15,4 +15,14 @@ image: /img/dophin.jpg
 ---
 ## 嘤嘤嘤嘤嘤~~~~
 
+<br>
+
 ## [Click Me!](https://ezylryb-bk.github.io/Gift/)
+
+<br>
+
+建议在手机端查看~
+
+<br>
+
+[源代码&&项目地址](https://github.com/Ezylryb-BK/Gift)
