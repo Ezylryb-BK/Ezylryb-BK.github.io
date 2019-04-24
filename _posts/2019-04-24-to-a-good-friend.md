@@ -8,11 +8,11 @@ gh-badge:
   - folk
   - follow
 tags:
-  - blog
+  - test
 comments: true
 published: true
 image: /img/dophin.jpg
 ---
-## 属于一首诗的小网页
+## 嘤嘤嘤嘤嘤~~~~
 
-## [献给我的挚友-ZJ,祝她生日快乐~](https://ezylryb-bk.github.io/Gift/)
+## [Click Me!](https://ezylryb-bk.github.io/Gift/)
