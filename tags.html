@@ -3,7 +3,7 @@ layout: page
 title: 'Tags'
 ---
 
-<script src="https://cdn.bootcss.com/canvas-nest.js/2.0.4/canvas-nest.js"></script>
+<script src="./js/line.js"></script>
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
