@@ -24,7 +24,8 @@ description: We need new ideas!
 # List of links in the navigation bar
 navbar-links:
   About Me: 
-    - Resume: "resume"
+    - Resume-ch: "resume"
+    - Resume-en: "resume2"
     - Organizition: https://itxia.club/
     - More: "aboutme"
   Github: "https://github.com/Ezylryb-BK/"
@@ -53,7 +54,7 @@ avatar: "/img/qu.jpg"
 navbar-col: "#B9D8F2"
 navbar-text-col: "#777777"
 navbar-children-col: "#D5DAD9"
-page-col: "#F5DEB3"
+# page-col: "#F5DEB3"
 link-col: "#8080C0"
 hover-col: "#C8B389"
 footer-col: "#FBEED9"
@@ -65,7 +66,7 @@ footer-link-col: "#404040"
 
 #navbar-img: "/img/dream.jpg"
 #footer-img: "/img/italy.jpg"
-page-img: "/img/yellow2.jpg"
+# page-img: "/img/yellow2.jpg"
 
 # --- Footer options --- #
 
