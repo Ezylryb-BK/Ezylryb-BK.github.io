@@ -23,6 +23,16 @@ layout: base
     border: dashed 1px #ccc;
   }
 </style>
+<div id="github-iframe"></div>
+  
+<div id="area-render"></div>
+<script src="./js/line.js"></script>
+<script type="text/javascript">
+  var cn = new CanvasNest(document.getElementById('area-render'), {
+    color: '255,0,255',
+    count: 50,
+  });
+</script>
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
